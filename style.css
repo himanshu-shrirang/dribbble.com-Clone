@@ -942,6 +942,10 @@ a {
       font-size: 1.5em;
    }
 
+   #nav-part2>button {
+      font-size: 0.8em;
+
+   }
 
    /* HERO SECTION  */
    #hero-container {
@@ -984,12 +988,22 @@ a {
 
    .thumbnail-image-container>img {
       object-position: center;
+   }  
+   
+   #browse-btn-container {
+      height: 8vh;
+      margin-bottom: 10vh;
    }
 
+   #browse-btn {
+      font-size: .8em;
+   }
 
+   
    /* INTRACTIVE FOOTER */
    #intractive-footer {
-      margin-bottom: 8vh;
+      min-height: 95vh;
+      margin-bottom: 10vh;
    }
 
    #intractive-footer-inner-container {
@@ -1038,12 +1052,13 @@ a {
    #main-footer-inner {
       display: flex;
       flex-direction: column;
-      gap: 5em;
+      gap: 4em;
       padding: 0;
    }
 
    #footer-top {
       height: 60%;
+      gap: 0em;
       justify-content: center;
    }
 
