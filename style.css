@@ -921,7 +921,7 @@ a {
    /* NAVBAR */
    #nav-part2 {
       width: 50%;
-      gap: 1.4em;
+      gap: 1.1em;
    }
 
    #nav-section i {
@@ -991,7 +991,7 @@ a {
    }  
    
    #browse-btn-container {
-      height: 7vh;
+      height: 5vh;
       margin-bottom: 10vh;
    }
 
