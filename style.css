@@ -950,6 +950,7 @@ a {
    /* HERO SECTION  */
    #hero-container {
       gap: 10vw;
+      margin-bottom:1em;
    }
 
    #hero-container>h1 {
