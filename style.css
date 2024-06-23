@@ -842,6 +842,11 @@ a {
 
 
    /* MEDIA SCROLLER */
+   
+   #media-scroller-inner {
+      margin-bottom: 10vh;
+   }
+   
    #media-scroller-inner>.elems {
       height: 21.25em;
       width: 17.06em;
