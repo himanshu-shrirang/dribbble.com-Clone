@@ -137,7 +137,7 @@ body {
 #hero-section {
    min-height: 70vh;
    width: 100%;
-   margin: 3.5em 0 2em 0;
+   margin: 3.5em 0;
 }
 
 #hero-container {
@@ -152,7 +152,7 @@ body {
 }
 
 #hero-container>h5 {
-   font-size: 0.9em;
+   font-size: 1em;
    font-weight: 600;
    letter-spacing: .5px;
    font-family: Source-Serif;
@@ -641,9 +641,10 @@ video {
 }
 
 #footer-scroller:hover .footer-scroller-inner {
-   animation-play-state:paused; /* Pauses animation when hovering */
- }
- 
+   animation-play-state: paused;
+   /* Pauses animation when hovering */
+}
+
 
 
 .footer-img-name-container {
@@ -916,12 +917,16 @@ a {
 
 }
 
-@media only screen and (min-width: 350px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
    /* NAVBAR */
+   #nav-part1 {
+      gap:1.5em;
+   }
+
    #nav-part2 {
       width: 50%;
-      gap: 0.9em;
+      gap: 1.5em;
    }
 
    #nav-section i {
@@ -947,10 +952,19 @@ a {
 
    }
 
+
    /* HERO SECTION  */
+   #hero-section {
+      margin: 3.5em 0 2em 0;
+   }
+
    #hero-container {
       gap: 10vw;
-      margin-bottom:1em;
+   }
+
+   #hero-container>h5 {
+      font-size: 0.9em;
+      margin: 0 5px;
    }
 
    #hero-container>h1 {
@@ -967,6 +981,12 @@ a {
 
 
    /* MEDIA SCROLLER */
+
+
+   #media-scroller-inner {
+      margin-bottom: 15vh;
+   }
+
    #media-scroller-inner>.elems {
       height: 17em;
       width: 13.6em;
@@ -989,19 +1009,22 @@ a {
 
    .thumbnail-image-container>img {
       object-position: center;
-   }  
-   
+   }
+
    #browse-btn-container {
-      height: 5vh;
+      height: 7vh;
       margin-bottom: 10vh;
+
    }
 
    #browse-btn {
-      font-size: .8em;
+      font-size: .5em;
+
    }
 
-   
    /* INTRACTIVE FOOTER */
+
+
    #intractive-footer {
       min-height: 95vh;
       margin-bottom: 10vh;
